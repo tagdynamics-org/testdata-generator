@@ -26,7 +26,7 @@ function random(valueMin: number, valueMax: number): number {
 // Number of versions per map element
 const getNrVersions = () => random(1, 10);
 
-// Generate random timestamps for revisions so we have both multiple edits on 
+// Generate random timestamps for revisions so we have both multiple edits on
 // the same day and over several days.
 function getFirstTimestamp(): number {
   const epochSec0 = new Date(2010, 1, 1).getTime() / 1000;
