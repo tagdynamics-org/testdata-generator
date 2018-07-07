@@ -111,8 +111,8 @@ if (!outputFile) {
 }
 
 console.log(" *** osm-testdata-generator ***");
-console.log(` - output file ${outputFile}`);
-console.log(` - number of nodes ${outputFile}`);
+console.log(` - output file     : ${outputFile}`);
+console.log(` - number of nodes : ${nrNodes}`);
 
 const outputStream = fs.createWriteStream(outputFile, {});
 
