@@ -16,7 +16,7 @@ by the [ODbL](https://www.openstreetmap.org/copyright).
 
 ## Example output with two nodes
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="https://github.com/tagdynamics-org/testdata-generator">
   <node id="1" lat="-31.01199178603734" lon="-23.28243891196546" user="user:877190" uid="877190" visible="true" version="1" timestamp="2014-02-17T05:26:31.000Z" changeset="1874" >
