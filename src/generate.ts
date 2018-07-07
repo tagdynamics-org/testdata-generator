@@ -2,7 +2,7 @@ const fs = require("fs");
 import { toXML, xmlPre, xmlPost } from "./xmlwriter";
 
 /**
- * --- Various utility functins ---
+ * --- Various utility functions ---
  */
 
 /** n -> [1,2,..., n] */
@@ -26,8 +26,8 @@ function random(valueMin: number, valueMax: number): number {
 // Number of versions per map element
 const getNrVersions = () => random(1, 10);
 
-// Generate random timestamps for revisions so we have both multiple edits on same day and
-// over several days.
+// Generate random timestamps for revisions so we have both multiple edits on 
+// the same day and over several days.
 function getFirstTimestamp(): number {
   const epochSec0 = new Date(2010, 1, 1).getTime() / 1000;
   const epochSec1 = new Date(2015, 1, 1).getTime() / 1000;

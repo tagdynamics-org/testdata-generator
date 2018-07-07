@@ -23,8 +23,8 @@ by the [ODbL](https://www.openstreetmap.org/copyright).
     <tag k="k3" v="v4"/>
     <tag k="k8" v="v2"/>
   </node>
-  <node id="1" lat="7.681346776417115" lon="20.07010370630553" user="user:528535" uid="528535" visible="false" version="3" timestamp="2014-03-20T15:37:41.000Z" changeset="1213" />
-  <node id="1" lat="29.623443261148612" lon="56.898029435431624" user="user:249698" uid="249698" visible="true" version="4" timestamp="2014-04-18T03:32:03.000Z" changeset="940" >
+  <node id="1" lat="7.681346776417115" lon="20.07010370630553" user="user:528535" uid="528535" visible="false" version="2" timestamp="2014-03-20T15:37:41.000Z" changeset="1213" />
+  <node id="1" lat="29.623443261148612" lon="56.898029435431624" user="user:249698" uid="249698" visible="true" version="3" timestamp="2014-04-18T03:32:03.000Z" changeset="940" >
     <tag k="k6" v="v1"/>
   </node>
   <node id="2" lat="-17.0314741231641" lon="24.8830634664466" user="user:965015" uid="965015" visible="true" version="1" timestamp="2011-08-27T18:08:58.000Z" changeset="1470" >
