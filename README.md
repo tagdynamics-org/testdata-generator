@@ -45,12 +45,8 @@ by the [ODbL](https://www.openstreetmap.org/copyright).
 
 ## Contributing
 
-Ideas, questions or contributions are welcome. Please file an issue or submit a PR, thanks.
+Ideas, questions or contributions are welcome. Please file an issue.
 
 ## License
 
-```
-
-```
-
-
+Copyright 2018 Matias Dahl, distributed under the [MIT](LICENSE.md) license.

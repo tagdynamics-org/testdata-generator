@@ -29,7 +29,7 @@
     "openstreetmap", "gdpr", "test data"
   ],
   "author": "Matias Dahl",
-  "license": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tagdynamics-org/testdata-generator/issues"
   },
