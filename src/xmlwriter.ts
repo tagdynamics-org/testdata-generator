@@ -11,11 +11,18 @@ export function xmlPost() {
   return "</osm>\n";
 }
 
+/** Render ISOString without milliseconds, eg "2014-07-03T03:25:00Z" */
+function toISOString(ts): string {
+  // "2014-07-03T03:25:00.000Z"
+  const x = new Date(ts * 1000).toISOString();
+  return x.split(".000Z")[0] + "Z";
+}
+
 export function toXML({ id, type, version, ts, changeset, user, uid, lat, lon, visible, tags }): string {
   let output = "";
 
   output += `id="${id}" lat="${lat}" lon="${lon}" user="${user}" uid="${uid}" visible="${visible}" `;
-  output += `version="${version}" timestamp="${new Date(ts * 1000).toISOString()}" `;
+  output += `version="${version}" timestamp="${toISOString(ts)}" `;
   output += `changeset="${changeset}" `;
 
   if (type !== "node") {

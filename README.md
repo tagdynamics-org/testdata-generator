@@ -14,25 +14,41 @@ by the [ODbL](https://www.openstreetmap.org/copyright).
  - The output format mimics historical data dumps (the output XML file may contain multiple revisions for each node).
  - For further details about the OSM XML format, see the [osm wiki](https://wiki.openstreetmap.org/wiki/OSM_XML).
 
-## Example output with two nodes
+## Example output
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="https://github.com/tagdynamics-org/testdata-generator">
-  <node id="1" lat="-31.01199178603734" lon="-23.28243891196546" user="user:877190" uid="877190" visible="true" version="1" timestamp="2014-02-17T05:26:31.000Z" changeset="1874" >
+  <node id="1" lat="8.777569624453143" lon="-64.61018886501364" user="user:954411" uid="954411" visible="true" version="1" timestamp="2011-04-24T22:51:47Z" changeset="979" >
+    <tag k="k10" v="v4"/>
     <tag k="k3" v="v4"/>
-    <tag k="k8" v="v2"/>
+    <tag k="k9" v="v1"/>
+    <tag k="k1" v="v4"/>
+    <tag k="k5" v="v4"/>
   </node>
-  <node id="1" lat="7.681346776417115" lon="20.07010370630553" user="user:528535" uid="528535" visible="false" version="2" timestamp="2014-03-20T15:37:41.000Z" changeset="1213" />
-  <node id="1" lat="29.623443261148612" lon="56.898029435431624" user="user:249698" uid="249698" visible="true" version="3" timestamp="2014-04-18T03:32:03.000Z" changeset="940" >
-    <tag k="k6" v="v1"/>
+  <node id="1" lat="26.891512687619006" lon="72.81853960822097" user="user:614179" uid="614179" visible="false" version="2" timestamp="2011-04-30T21:13:37Z" changeset="1806" />
+  <node id="1" lat="25.415733628726382" lon="64.6564632352781" user="user:208974" uid="208974" visible="true" version="3" timestamp="2011-05-27T08:52:50Z" changeset="459" >
+    <tag k="k10" v="v2"/>
+    <tag k="k9" v="v1"/>
+    <tag k="k1" v="v5"/>
+    <tag k="k5" v="v2"/>
+    <tag k="k4" v="v2"/>
   </node>
-  <node id="2" lat="-17.0314741231641" lon="24.8830634664466" user="user:965015" uid="965015" visible="true" version="1" timestamp="2011-08-27T18:08:58.000Z" changeset="1470" >
-    <tag k="k2" v="v4"/>
+  <node id="1" lat="-34.71022411780396" lon="15.296605141851597" user="user:673661" uid="673661" visible="true" version="4" timestamp="2011-06-05T17:23:28Z" changeset="30" >
+    <tag k="k10" v="v3"/>
+    <tag k="k9" v="v1"/>
+    <tag k="k1" v="v5"/>
+    <tag k="k5" v="v2"/>
+    <tag k="k3" v="v4"/>
+    <tag k="k7" v="v3"/>
+  </node>
+  <node id="2" lat="-22.24055836203025" lon="-47.29869159793307" user="user:453782" uid="453782" visible="true" version="1" timestamp="2010-10-22T20:53:22Z" changeset="435" >
     <tag k="k3" v="v1"/>
-    <tag k="k9" v="v3"/>
-    <tag k="k4" v="v3"/>
+    <tag k="k7" v="v4"/>
+    <tag k="k4" v="v1"/>
+    <tag k="k2" v="v5"/>
   </node>
+  ...
 </osm>
 ```
 
